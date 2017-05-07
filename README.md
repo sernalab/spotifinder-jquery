@@ -15,7 +15,7 @@ As you can see we used those API links to complete the project:
 
  You can see my project [here](https://marioterron.github.io/landing-mailchimp/).
 
-![Snapshot](img/mailchimp.jpg)
+![Snapshot](https://github.com/sernalab/spotifinder-jquery/blob/master/img/home.png)
 
 -----
 
