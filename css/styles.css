@@ -1,0 +1,91 @@
+body{
+	background-color: black;
+}
+
+h1, h2, h3{
+	color: white;
+	letter-spacing: 1px;
+}
+
+ul{
+	color: black;
+	margin-left: 110px;
+	width: 300px;
+}
+ul>li a{
+	color: black;
+}
+
+.btn{
+	background-color: #1ed760;
+	color: white;
+}
+
+.search{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.spoti-finder{
+	margin-top: 30px;
+}
+
+.avatar img{
+	margin-top: 20px;
+}
+
+.input-lg{
+	font-size: 15px;
+}
+
+
+/*card*/
+
+.card.hovercard .avatar {
+    margin-top:60px;
+}
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(214, 224, 226, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #282828;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+
+

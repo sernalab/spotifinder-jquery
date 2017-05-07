@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SpotiFinder 🎧</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-sm-offset-2">
+                <div class="card hovercard">
+                    <h1 class="spoti-finder">SpotiFinder 🎧</h1>
+                    <div class="avatar">
+                        <img id="avatar_album" alt="" src="img/logo.png">
+                    </div>
+                    <div class="title">
+                        <h2>Artist</h2>
+                    </div>    
+                    <div class="search">
+                        <h3>Search an artist</h3>
+                        <form action="" method="POST" class="form-inline" role="form">
+                            <div class="form-group">
+                                <label class="sr-only" for="">label</label>
+                                <input type="text" class="form-control" id="artist-name" placeholder="Enter an artist name...">
+                                <button id="search-artist" type="submit" class="btn">Lets Play</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                    <div class="form-group artists">
+                        <h3>Artists</h3>
+                        <select id="artists-selection" class="input-lg"></select>
+                    </div>
+                    <div class="form-group albums">
+                        <h3>Albums</h3>
+                        <select id="albums-selection" class="input-lg"></select>
+                    </div>
+                    <div class="tracks">
+                        <h3>Tracks</h3>
+                        <ul id="tracks-selection" class="list-group">
+                            <li class="list-group-item"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /container -->
+    <!-- /scripts -->
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
