@@ -13,7 +13,7 @@ As you can see we used those API links to complete the project:
     https://api.spotify.com/v1/albums/<ID-ALBUM>/tracks
 ```
 
- You can see my project [here](https://marioterron.github.io/landing-mailchimp/).
+ You can see my project [here](https://sernalab.github.io/spotifinder-jquery/).
 
 ![Snapshot](https://github.com/sernalab/spotifinder-jquery/blob/master/img/home.png)
 
