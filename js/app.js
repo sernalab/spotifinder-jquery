@@ -1,8 +1,9 @@
-$( document ).ready(function() {
+$(document).ready(function() {
     $('.artists').hide();
     $('.albums').hide();
     $('.tracks').hide();
 });
+
 //Artists
 
 $('#search-artist').on('click', function(e) {
@@ -31,6 +32,10 @@ $('#search-artist').on('click', function(e) {
 
 $('#artists-selection').on('change', function(e) {
     var idArtist = $(this).val();
+
+    var name = $(this).find(":selected").text(); //after click an artist we will show the name in our h2
+    $('#name_artist').text(name)
+
     var urlAlbums = 'https://api.spotify.com/v1/artists/' + idArtist + '/albums'
     $.ajax({
         url: urlAlbums,
@@ -40,18 +45,12 @@ $('#artists-selection').on('change', function(e) {
 
             albumsFound.forEach(function(albumData) {
                 optionsAlbums += '<option value="' + albumData.id + '">' + albumData.name + '</option>'
+
             })
             $('#albums-selection').html(optionsAlbums)
         }
     })
     $('.albums').show();
-    // $.ajax({
-    //     url: urlSearchArtist,
-    //     success: function(data) {
-    //         console.log(data.artists.items.images)//no me muestra el console.log de images, de items OK
-            
-    //     }
-    // })
 })
 
 // Tracks
