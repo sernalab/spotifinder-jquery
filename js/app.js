@@ -45,9 +45,9 @@ $('#artists-selection').on('change', function(e) {
 
             albumsFound.forEach(function(albumData) {
                 optionsAlbums += '<option value="' + albumData.id + '">' + albumData.name + '</option>'
-
             })
             $('#albums-selection').html(optionsAlbums)
+            
         }
     })
     $('.albums').show();
